@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.a{
+			background-color: red;
+			flex-grow: 3;
+		}
+		.b{
+			background-color: blue;
+			flex-grow: 3;
+		}
+		.c{
+			background-color: pink;
+			flex-grow: 3;
+		}
+		.flex-container{
+			display: flex;
+			flex-direction: column;
+		}
+		@media only screen and (min-width: 600px){
+			.container{
+				display: flex;
+				flex-direction: row;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="flex-container">
+		<div class="a">
+			<h1>A</h1>
+		</div>
+		<div class="b">
+			<h1>B</h1>
+		</div>
+		<div class="c">
+			<h1>C</h1>
+		</div>
+	</div>
+
+</body>
+</html>
